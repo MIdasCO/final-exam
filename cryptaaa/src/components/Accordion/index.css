@@ -1,0 +1,44 @@
+.accordion { 
+  margin: 10px 0; 
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+.accordion-title { 
+  font-weight: bold; 
+  font-size: 16px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+.accordion-icon { 
+  font-size: 18px; 
+  font-weight: bold; 
+  padding-left: 10px; 
+}
+.accordion-details { 
+  margin-left: 20px; 
+  margin-top: 10px; 
+}
+.tooltip-container { 
+  position: relative; 
+  display: inline-block; 
+}
+.tooltip-text {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip-container:hover .tooltip-text { visibility: visible; opacity: 1; }

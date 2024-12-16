@@ -1,0 +1,14 @@
+.typography { 
+    font-family: Arial, sans-serif; 
+}
+.typography.h1 { 
+    font-size: 32px; font-weight: bold; 
+}
+.typography.h2 { 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.typography.p { 
+    font-size: 16px; 
+    color: #555; 
+}
