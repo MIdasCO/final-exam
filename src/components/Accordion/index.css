@@ -27,7 +27,7 @@
 }
 .tooltip-text {
   visibility: hidden;
-  background-color: #555;
+  background-color: royalblue;
   color: #fff;
   text-align: center;
   border-radius: 5px;
@@ -40,6 +40,9 @@
   white-space: nowrap;
   opacity: 0;
   transition: opacity 0.3s;
+  max-width: 200px;
+  min-height: 100px;
+  text-wrap: wrap;
 }
 .tooltip-container:hover .tooltip-text { 
   visibility: visible; 
