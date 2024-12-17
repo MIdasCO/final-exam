@@ -38,12 +38,8 @@
   bottom: 125%;
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap;
   opacity: 0;
   transition: opacity 0.3s;
-  max-width: 200px;
-  min-height: 100px;
-  text-wrap: wrap;
 }
 
 .tooltip-container:hover .tooltip-text { 
