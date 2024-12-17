@@ -25,6 +25,7 @@
   position: relative; 
   display: inline-block; 
 }
+
 .tooltip-text {
   visibility: hidden;
   background-color: royalblue;
@@ -44,6 +45,7 @@
   min-height: 100px;
   text-wrap: wrap;
 }
+
 .tooltip-container:hover .tooltip-text { 
   visibility: visible; 
   opacity: 1; 
